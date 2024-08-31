@@ -66,4 +66,17 @@ public class Aluno {
 		return (nota1 + nota2 + nota3 + nota4) / 4;
 	}
 	
+	public boolean getAlunoAprovado() {
+		
+		double mediaAluno = this.getCalculoMediaAluno();
+		
+		if(mediaAluno >= 70) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		
+	}
+	
 }

@@ -39,7 +39,7 @@ public class Boletim {
 		alunoNota.setNota2(nota2Numerica);
 		alunoNota.setNota3(nota3Numerica);
 		alunoNota.setNota4(nota4Numerica);
-		JOptionPane.showMessageDialog(null, "Media do Aluno foi: " + alunoNota.getCalculoMediaAluno());
+		JOptionPane.showMessageDialog(null, "Media do Aluno foi: " + alunoNota.getCalculoMediaAluno() + (alunoNota.getAlunoAprovado() ? " Aprovado" : " Reprovado"));
 	}
 	
 }
